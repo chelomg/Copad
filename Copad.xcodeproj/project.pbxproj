@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85680AFC1E461FC9007BAE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85680AFB1E461FC9007BAE82 /* AppDelegate.swift */; };
+		85680AFE1E461FC9007BAE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85680AFD1E461FC9007BAE82 /* ViewController.swift */; };
+		85680B011E461FC9007BAE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85680AFF1E461FC9007BAE82 /* Main.storyboard */; };
+		85680B031E461FC9007BAE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85680B021E461FC9007BAE82 /* Assets.xcassets */; };
+		85680B061E461FC9007BAE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85680B041E461FC9007BAE82 /* LaunchScreen.storyboard */; };
+		85680B111E461FC9007BAE82 /* CopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85680B101E461FC9007BAE82 /* CopadTests.swift */; };
+		85680B1C1E461FC9007BAE82 /* CopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85680B1B1E461FC9007BAE82 /* CopadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85680B0D1E461FC9007BAE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85680AF01E461FC8007BAE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85680AF71E461FC8007BAE82;
+			remoteInfo = Copad;
+		};
+		85680B181E461FC9007BAE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85680AF01E461FC8007BAE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85680AF71E461FC8007BAE82;
+			remoteInfo = Copad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85680AF81E461FC9007BAE82 /* Copad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Copad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85680AFB1E461FC9007BAE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85680AFD1E461FC9007BAE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85680B001E461FC9007BAE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85680B021E461FC9007BAE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85680B051E461FC9007BAE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85680B071E461FC9007BAE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85680B0C1E461FC9007BAE82 /* CopadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85680B101E461FC9007BAE82 /* CopadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopadTests.swift; sourceTree = "<group>"; };
+		85680B121E461FC9007BAE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85680B171E461FC9007BAE82 /* CopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85680B1B1E461FC9007BAE82 /* CopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopadUITests.swift; sourceTree = "<group>"; };
+		85680B1D1E461FC9007BAE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85680AF51E461FC8007BAE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85680B091E461FC9007BAE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85680B141E461FC9007BAE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85680AEF1E461FC8007BAE82 = {
+			isa = PBXGroup;
+			children = (
+				85680AFA1E461FC9007BAE82 /* Copad */,
+				85680B0F1E461FC9007BAE82 /* CopadTests */,
+				85680B1A1E461FC9007BAE82 /* CopadUITests */,
+				85680AF91E461FC9007BAE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85680AF91E461FC9007BAE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85680AF81E461FC9007BAE82 /* Copad.app */,
+				85680B0C1E461FC9007BAE82 /* CopadTests.xctest */,
+				85680B171E461FC9007BAE82 /* CopadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85680AFA1E461FC9007BAE82 /* Copad */ = {
+			isa = PBXGroup;
+			children = (
+				85680AFB1E461FC9007BAE82 /* AppDelegate.swift */,
+				85680AFD1E461FC9007BAE82 /* ViewController.swift */,
+				85680AFF1E461FC9007BAE82 /* Main.storyboard */,
+				85680B021E461FC9007BAE82 /* Assets.xcassets */,
+				85680B041E461FC9007BAE82 /* LaunchScreen.storyboard */,
+				85680B071E461FC9007BAE82 /* Info.plist */,
+			);
+			path = Copad;
+			sourceTree = "<group>";
+		};
+		85680B0F1E461FC9007BAE82 /* CopadTests */ = {
+			isa = PBXGroup;
+			children = (
+				85680B101E461FC9007BAE82 /* CopadTests.swift */,
+				85680B121E461FC9007BAE82 /* Info.plist */,
+			);
+			path = CopadTests;
+			sourceTree = "<group>";
+		};
+		85680B1A1E461FC9007BAE82 /* CopadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85680B1B1E461FC9007BAE82 /* CopadUITests.swift */,
+				85680B1D1E461FC9007BAE82 /* Info.plist */,
+			);
+			path = CopadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85680AF71E461FC8007BAE82 /* Copad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85680B201E461FC9007BAE82 /* Build configuration list for PBXNativeTarget "Copad" */;
+			buildPhases = (
+				85680AF41E461FC8007BAE82 /* Sources */,
+				85680AF51E461FC8007BAE82 /* Frameworks */,
+				85680AF61E461FC8007BAE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Copad;
+			productName = Copad;
+			productReference = 85680AF81E461FC9007BAE82 /* Copad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85680B0B1E461FC9007BAE82 /* CopadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85680B231E461FC9007BAE82 /* Build configuration list for PBXNativeTarget "CopadTests" */;
+			buildPhases = (
+				85680B081E461FC9007BAE82 /* Sources */,
+				85680B091E461FC9007BAE82 /* Frameworks */,
+				85680B0A1E461FC9007BAE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85680B0E1E461FC9007BAE82 /* PBXTargetDependency */,
+			);
+			name = CopadTests;
+			productName = CopadTests;
+			productReference = 85680B0C1E461FC9007BAE82 /* CopadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85680B161E461FC9007BAE82 /* CopadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85680B261E461FC9007BAE82 /* Build configuration list for PBXNativeTarget "CopadUITests" */;
+			buildPhases = (
+				85680B131E461FC9007BAE82 /* Sources */,
+				85680B141E461FC9007BAE82 /* Frameworks */,
+				85680B151E461FC9007BAE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85680B191E461FC9007BAE82 /* PBXTargetDependency */,
+			);
+			name = CopadUITests;
+			productName = CopadUITests;
+			productReference = 85680B171E461FC9007BAE82 /* CopadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85680AF01E461FC8007BAE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cheng-Lung";
+				TargetAttributes = {
+					85680AF71E461FC8007BAE82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					85680B0B1E461FC9007BAE82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85680AF71E461FC8007BAE82;
+					};
+					85680B161E461FC9007BAE82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85680AF71E461FC8007BAE82;
+					};
+				};
+			};
+			buildConfigurationList = 85680AF31E461FC8007BAE82 /* Build configuration list for PBXProject "Copad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85680AEF1E461FC8007BAE82;
+			productRefGroup = 85680AF91E461FC9007BAE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85680AF71E461FC8007BAE82 /* Copad */,
+				85680B0B1E461FC9007BAE82 /* CopadTests */,
+				85680B161E461FC9007BAE82 /* CopadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85680AF61E461FC8007BAE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85680B061E461FC9007BAE82 /* LaunchScreen.storyboard in Resources */,
+				85680B031E461FC9007BAE82 /* Assets.xcassets in Resources */,
+				85680B011E461FC9007BAE82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85680B0A1E461FC9007BAE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85680B151E461FC9007BAE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85680AF41E461FC8007BAE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85680AFE1E461FC9007BAE82 /* ViewController.swift in Sources */,
+				85680AFC1E461FC9007BAE82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85680B081E461FC9007BAE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85680B111E461FC9007BAE82 /* CopadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85680B131E461FC9007BAE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85680B1C1E461FC9007BAE82 /* CopadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85680B0E1E461FC9007BAE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85680AF71E461FC8007BAE82 /* Copad */;
+			targetProxy = 85680B0D1E461FC9007BAE82 /* PBXContainerItemProxy */;
+		};
+		85680B191E461FC9007BAE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85680AF71E461FC8007BAE82 /* Copad */;
+			targetProxy = 85680B181E461FC9007BAE82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85680AFF1E461FC9007BAE82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85680B001E461FC9007BAE82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85680B041E461FC9007BAE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85680B051E461FC9007BAE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85680B1E1E461FC9007BAE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85680B1F1E461FC9007BAE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85680B211E461FC9007BAE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Copad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelong.Copad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85680B221E461FC9007BAE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Copad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelong.Copad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		85680B241E461FC9007BAE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelong.CopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copad.app/Copad";
+			};
+			name = Debug;
+		};
+		85680B251E461FC9007BAE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelong.CopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copad.app/Copad";
+			};
+			name = Release;
+		};
+		85680B271E461FC9007BAE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelong.CopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Copad;
+			};
+			name = Debug;
+		};
+		85680B281E461FC9007BAE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelong.CopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Copad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85680AF31E461FC8007BAE82 /* Build configuration list for PBXProject "Copad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85680B1E1E461FC9007BAE82 /* Debug */,
+				85680B1F1E461FC9007BAE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85680B201E461FC9007BAE82 /* Build configuration list for PBXNativeTarget "Copad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85680B211E461FC9007BAE82 /* Debug */,
+				85680B221E461FC9007BAE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85680B231E461FC9007BAE82 /* Build configuration list for PBXNativeTarget "CopadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85680B241E461FC9007BAE82 /* Debug */,
+				85680B251E461FC9007BAE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85680B261E461FC9007BAE82 /* Build configuration list for PBXNativeTarget "CopadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85680B271E461FC9007BAE82 /* Debug */,
+				85680B281E461FC9007BAE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85680AF01E461FC8007BAE82 /* Project object */;
+}
