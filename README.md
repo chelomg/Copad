@@ -5,6 +5,6 @@
 
 #DEMO View
 ######Ex1
-[!GITHUB](https://github.com/chelomg/Copad/blob/master/count.png)
+![GITHUB](https://github.com/chelomg/Copad/blob/master/count.png)
 ######Ex2
-[!GITHUB](https://github.com/chelomg/Copad/blob/master/setting.png)
+![GITHUB](https://github.com/chelomg/Copad/blob/master/setting.png)
